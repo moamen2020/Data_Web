@@ -1,0 +1,430 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* Start Header*/
+
+
+.header {
+	background-color: #0C0F38;
+	height: 750px
+}
+
+.header .navbar {
+	padding: 0;
+	padding-top: 50px;
+}
+
+.header .navbar ul {
+	list-style: none;
+}
+
+.header .navbar ul li {
+	float: left;
+	padding: 20px 30px;
+	margin-left: 10px;
+}
+
+.header .navbar ul li a {
+	color: #FFF;
+	text-decoration: none;
+	padding-bottom: 6px;
+	transition: ease-in-out all .3s
+}
+
+
+.header .navbar ul li a:hover {
+	color: #fdd430;
+	border-bottom: 1px solid #fdd430
+}
+
+.header .intro {
+	padding-top: 40px
+}
+
+.header .intro .text {
+	width: 50%;
+	float: left;
+}
+
+.header .intro .text h2 {
+	color: #FFF;
+	font-size: 64px;
+	margin-bottom: 25px;
+	font-weight: bold
+}
+
+.header .intro .text span {
+	font-size: 40px;
+	color: orange;
+	font-weight: bold;
+}
+
+.header .intro .text p{
+	margin-top: 30px;
+	line-height: 1.7;
+	color: #FFF;
+}
+
+.header .intro .text button {
+	padding: 10px 50px;
+	background-color: white;
+	transition: ease-in-out all .5s;
+	color: black;
+	border: 0;
+	margin-top: 30px;
+	border-radius: 20px;
+}
+
+.header .intro .text button:hover {
+	background-color: #0c0f38;
+	box-shadow: #FFF 0px 0px 15px;
+	color: #FFF
+}
+
+.header .intro .image {
+	width: 50%;
+	float: right
+}
+
+.header .intro .image img {
+	width: 600px
+}
+
+
+@media (min-width: 576px) {
+	.header .navbar ul li {
+		float: left;
+		padding: 0px 0px;
+		margin-left: 0px;
+	}
+	
+}
+
+@media (min-width: 768px) {
+	.header .navbar ul li {
+		float: left;
+		padding: 20px 30px;
+		margin-left: 10px;
+	}
+	
+}
+
+@media (min-width: 992px) {
+	.header .navbar ul li {
+		float: left;
+		padding: 20px 30px;
+		margin-left: 10px;
+	}
+	
+}
+
+@media (min-width: 1200px) {
+	.header .navbar ul li {
+		float: left;
+		padding: 20px 30px;
+		margin-left: 10px;
+	}
+	
+}
+
+
+
+/* End Header */
+
+/* Start Hosting */
+
+.hosting {
+	padding: 70px 0;
+	text-align: center
+}
+
+.hosting h2 {
+	font-size: 43px;
+	font-weight: bold;
+	color: #0C0F38;
+	margin-bottom: 50px
+}
+
+.hosting p {
+	margin-top: 50px;
+	line-height: 1.7;
+	color: #5a5858
+}
+
+.hosting button {
+	padding: 10px 50px;
+	background-color: black;
+	transition: ease-in-out all .5s;
+	border-radius: 20px;
+	color: white;
+	border: 0;
+	margin-top: 30px;
+}
+
+.hosting button:hover {
+	background-color: #0c0f38;
+	box-shadow: #8e2aaf 0px 0px 20px 1px;
+}
+
+/* End Hosting */
+
+/* Start services*/
+
+.services {
+	background-color: #0C0F38;
+}
+
+.services .ser h2 {
+    color: #FFF;
+    font-size: 45px;
+    padding-top: 35px;
+	padding-bottom: 15px;
+    font-weight: bold;
+}
+
+
+.services .ser p {
+	color: #FFF;
+}
+
+.services .mm {
+	border-radius: 30px;
+	margin-left: 38px;
+	margin-top: 50px;
+	width: 30%;
+	cursor: pointer;
+	box-shadow: black 0 0 20px 7px;
+	transition: ease-in-out all .5s;
+}
+
+.services .mm:hover {
+	background-color: black;
+	box-shadow: #FFF 0px 0px 15px;
+	border: 0
+}
+
+
+.services .mm img {
+	background-color: #FFF;
+	padding: 10px;
+	border-radius: 50%;
+	max-width: 50%;
+	margin: 50px 0 30px 0;
+}
+.services .mm h5 {
+	color: #FFF;
+	font-size: 25px;
+	font-weight: 500
+}
+
+.services .mm p{
+	color: #FFF;
+	font-size: 18px;
+	display: block;
+	padding: 15px 0px 20px 0px;
+}
+
+.services button {
+	margin-left: 470px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 15px 70px;
+	border-radius: 20px;
+	transition: ease-in-out all .5s;
+	font-weight: 500;
+	font-size: 17px;
+	border: 0;
+}
+
+.services button:hover {
+	background-color: #0c0f38;
+	box-shadow: #FFF 0px 0px 15px;
+	color: #FFF
+}
+
+/* End services*/
+
+/* Start chooes */
+
+.chooes {
+	overflow:hidden ; 
+}
+
+.chooes .why h2 {
+	margin-top: 100px;
+	font-size: 45px;
+	font-weight: bold;
+	color: #0C0F38;
+}
+
+.chooes .why p {
+	margin-top: 5px;
+	margin-bottom: 40px
+}
+
+.chooes .making .making1 {
+	
+	width: 31%;
+	float: left;
+	border-radius: 30px;
+     box-shadow: #9a9a9a 0px 0px 10px;
+}
+
+.chooes .making .making1:nth-child(2),
+.chooes .making .making1:nth-child(3){
+	margin-left: 38px
+}
+
+.chooes .making .making1 img {
+	margin: 40px 0 15px 0
+}
+
+.chooes .making .making1 h3 {
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.chooes .making .making1 p {
+	font-size: 16px;
+     line-height: 24px;
+     color: #090808;
+	margin-bottom: 20px;
+}
+
+
+.chooes .making button:nth-of-type(1) {
+    margin: 40px 205px 50px 86px;
+    padding: 10px 50px;
+	border: 0;
+	border-radius: 30px;
+	background-color: black;
+	color: #FFF;
+}
+
+.chooes .making button:nth-of-type(2) {
+    margin: 40px 0px 50px 0px;
+    padding: 10px 50px;
+	border: 0;
+	border-radius: 30px;
+	background-color: black;
+	color: #FFF;
+}
+
+
+.chooes .making button:nth-of-type(3) {
+     margin: 40px 0px 50px 200px;
+     padding: 10px 50px;
+	border: 0;
+	border-radius: 30px;
+	background-color: black;
+	color: #FFF;
+}
+
+
+/* End chooes */
+
+/* Start Contact */
+
+.contact-us .form {
+	border: 2px solid #8224dd;
+	background-color: #0C0F38;
+	margin: 20px 0px -225px 280px;
+	border-radius: 40px;
+	width: 50%;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	box-shadow: #FFF 0px 0px 12px 0px;
+}
+
+.contact-us .form input {
+	display: block;
+	padding: 0px 15px;
+	width: 80%;
+	height: 60px;
+	margin-left: 55px;
+	border-radius: 20px;
+	margin-bottom: 20px
+}
+
+.contact-us .form input:nth-child(1) {
+	margin-top: 50px
+}
+
+
+.contact-us .form button {
+	margin: 20px 0px 30px 0px ;
+	padding: 10px 70px;
+	border-radius: 20px;
+	background-color: #FFF;
+	color: #ef4259;
+}
+
+.contact {
+	background-color: #0C0F38;
+	text-align: center;
+	height: 505px;
+	position: relative;
+	z-index: 1;
+}
+
+.contact h2 {
+    color: #FFF;
+    padding-top: 250px;
+    font-size: 50px;
+	font-weight: bold
+}
+
+.contact h3 {
+    color: #FFF;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.contact p {
+    color: #cacaca;
+    margin: 25px 0px;
+    padding-bottom: 25px;
+    font-size: 17px;
+    line-height: 1.7;
+
+}
+
+/* End Contact */
+/* Start Copyright */
+
+.copyright {
+	position: relative
+}
+
+.copyright h5 {
+	padding: 15px 0px;
+	margin-bottom: 0;
+	color: #1e1e1e;
+	font-size: 18px;
+}
+
+.copyright .icon {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: #ffffff;
+    background-color: #0c0f38;
+    z-index: 10;
+    width: 36px;
+    height: 35px;
+    border: 1px solid #FFF;
+    border-radius: 36px;
+    box-shadow: black 0px 0px 5px 2px;
+    cursor: pointer;
+    display: none
+	
+}
+
+/* End Copyright*/
