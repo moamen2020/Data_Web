@@ -11,7 +11,7 @@
 
 .header {
 	background-color: #0C0F38;
-	height: 750px
+	height: 480px
 }
 
 .header .navbar {
@@ -25,7 +25,7 @@
 
 .header .navbar ul li {
 	float: left;
-	padding: 20px 30px;
+    padding: 15px 11px;
 	margin-left: 10px;
 }
 
@@ -53,13 +53,13 @@
 
 .header .intro .text h2 {
 	color: #FFF;
-	font-size: 64px;
+	font-size: 30px;
 	margin-bottom: 25px;
 	font-weight: bold
 }
 
 .header .intro .text span {
-	font-size: 40px;
+	font-size: 23px;
 	color: orange;
 	font-weight: bold;
 }
@@ -68,16 +68,18 @@
 	margin-top: 30px;
 	line-height: 1.7;
 	color: #FFF;
+	font-size: 10px;
 }
 
 .header .intro .text button {
-	padding: 10px 50px;
+	padding: 6px 25px;
 	background-color: white;
 	transition: ease-in-out all .5s;
 	color: black;
 	border: 0;
-	margin-top: 30px;
-	border-radius: 20px;
+	margin-top: 9px;
+    border-radius: 20px;
+    font-size: 10px;
 }
 
 .header .intro .text button:hover {
@@ -92,42 +94,153 @@
 }
 
 .header .intro .image img {
-	width: 600px
+	width: 100%
 }
 
 
 @media (min-width: 576px) {
+
+	.header {
+		height: 650px;
+	}
+
+
 	.header .navbar ul li {
 		float: left;
-		padding: 0px 0px;
-		margin-left: 0px;
+		padding: 10px 10px;
+		margin-top: 20px;
+	}
+
+	.header .intro .image img {
+		width: 126%;
+	}
+
+	.header .intro .text h2 {
+		color: #FFF;
+		font-size: 40px;
+		margin-bottom: 25px;
+		margin-top: 40px;
+		font-weight: bold
+	}
+
+	.header .intro .text span {
+		font-size: 25px;
+
+	}
+
+	.header .intro .text p {
+		font-size: 14px;
+	}
+
+	.header .intro .text button {
+		padding: 7px 25px;
+		margin-top: 15px;
+		font-size: 15px;
 	}
 	
 }
+
+
 
 @media (min-width: 768px) {
+
+	.header {
+		height: 650px;
+	}
+
+
+
 	.header .navbar ul li {
 		float: left;
 		padding: 20px 30px;
-		margin-left: 10px;
+		margin-left: 0;
+		margin-top: 20px;
 	}
+
+
+	.header .intro .image img {
+		width: 107%;
+	}
+
+	.header .intro .text h2 {
+		font-size: 50px;
+	}
+
+	.header .intro .text span {
+		font-size: 35px;
+	}
+
+	.header .intro .text p {
+		font-size: 14px;
+	}
+
+	.header .intro .text button {
+		padding: 10px 50px;
+		margin-top: 15px;
+		font-size: 17px;
+	}
+
 	
 }
+
+
+
 
 @media (min-width: 992px) {
+
+	.header {
+		height: 630px;
+	}
+
+	.header .navbar {
+		padding: 0;
+		padding-top: 20px;
+	}
+
+
 	.header .navbar ul li {
 		float: left;
 		padding: 20px 30px;
 		margin-left: 10px;
+		margin-top: 20px;
 	}
+
+	.header .intro .text h2 {
+		color: #FFF;
+		font-size: 64px;
+		margin-bottom: 25px;
+		font-weight: bold
+	}
+
+	.header .intro .text p {
+		font-size: 16px;
+	}
+
 	
 }
 
+
+
+
 @media (min-width: 1200px) {
+
+	.header {
+		height: 680px;
+	}
+
+
+
 	.header .navbar ul li {
 		float: left;
 		padding: 20px 30px;
-		margin-left: 10px;
+	}
+
+
+	.header .intro .text h2 {
+		color: #FFF;
+		font-size: 64px;
+		margin-bottom: 25px;
+		font-weight: bold
 	}
 	
 }
@@ -171,6 +284,81 @@
 	box-shadow: #8e2aaf 0px 0px 20px 1px;
 }
 
+
+
+
+@media (min-width: 576px) {
+
+	.hosting h2 {
+		font-size: 30px;
+	}
+
+	.hosting button {
+		padding: 7px 25px;
+		margin-top: 15px;
+		font-size: 15px;
+
+	}
+
+}
+
+
+
+@media (min-width: 768px) {
+	.hosting h2 {
+		font-size: 40px;
+	}
+
+	.hosting button {
+		padding: 10px 50px;
+		background-color: black;
+		transition: ease-in-out all .5s;
+		border-radius: 20px;
+		color: white;
+		border: 0;
+		margin-top: 30px;
+	}
+}
+
+
+
+
+@media (min-width: 992px) {
+	.hosting h2 {
+		font-size: 50px;
+	}
+
+	.hosting button {
+		padding: 10px 50px;
+		background-color: black;
+		transition: ease-in-out all .5s;
+		border-radius: 20px;
+		color: white;
+		border: 0;
+		margin-top: 30px;
+	}
+}
+
+
+
+
+@media (min-width: 1200px) {
+
+	.hosting button {
+		font-size: 17px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
 /* End Hosting */
 
 /* Start services*/
@@ -196,7 +384,7 @@
 	border-radius: 30px;
 	margin-left: 38px;
 	margin-top: 50px;
-	width: 30%;
+	width: 80%;
 	cursor: pointer;
 	box-shadow: black 0 0 20px 7px;
 	transition: ease-in-out all .5s;
@@ -230,10 +418,10 @@
 }
 
 .services button {
-	margin-left: 470px;
+	margin-left: 30%;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	padding: 15px 70px;
+	padding: 10px 50px;
 	border-radius: 20px;
 	transition: ease-in-out all .5s;
 	font-weight: 500;
@@ -247,7 +435,81 @@
 	color: #FFF
 }
 
+
+
+
+
+
+@media (min-width: 576px) {
+
+	.services .ser h2 {
+		font-size: 40px;
+	}
+
+	.services .ser p {
+		font-size: 15px;
+	}
+
+	.services .mm {
+		width: 100%;
+	}
+
+	.services button {
+		margin-left: 40%;
+	}
+
+
+
+}
+
+
+
+@media (min-width: 768px) {
+
+	.services .ser h2 {
+		font-size: 50px;
+	}
+
+	.services .ser p {
+		font-size: 18px;
+	}
+
+	.services .mm {
+		width: 40%;
+	}
+
+	.services button {
+		margin-left: 35%;
+	}
+
+}
+
+
+
+
+@media (min-width: 992px) {
+
+
+	.services .mm {
+		width: 29%;
+	}
+
+	.services button {
+		margin-left: 42%;
+	}
+
+}
+
 /* End services*/
+
+
+
+
+
+
+
+
+
 
 /* Start chooes */
 
@@ -272,13 +534,13 @@
 	width: 31%;
 	float: left;
 	border-radius: 30px;
-     box-shadow: #9a9a9a 0px 0px 10px;
+    box-shadow: #9a9a9a 0px 0px 10px;
 }
 
-.chooes .making .making1:nth-child(2),
+/* .chooes .making .making1:nth-child(2),
 .chooes .making .making1:nth-child(3){
 	margin-left: 38px
-}
+} */
 
 .chooes .making .making1 img {
 	margin: 40px 0 15px 0
@@ -296,8 +558,7 @@
 	margin-bottom: 20px;
 }
 
-
-.chooes .making button:nth-of-type(1) {
+/* .chooes .making button:nth-of-type(1) {
     margin: 40px 205px 50px 86px;
     padding: 10px 50px;
 	border: 0;
@@ -323,6 +584,135 @@
 	border-radius: 30px;
 	background-color: black;
 	color: #FFF;
+}  */
+
+@media (max-width: 576px) {
+	.chooes .making button {
+		display: none;	
+	}
+}
+
+@media (min-width: 576px) {
+
+	.chooes .why h2 {
+		margin-top: 50px;
+		font-size: 40px;
+	}
+
+	.chooes .why p {
+		margin-top: 20px;
+		font-size: 15px
+	}
+
+	.chooes .making .making1 {
+		width: 90%;
+		margin-bottom: 40px;
+		margin-left: 20px;
+	}
+
+	.chooes .making button {
+		display: none;
+		padding: 10px 50px;
+		border: 0;
+		border-radius: 30px;
+		background-color: black;
+		color: #FFF;	
+	}
+
+	
+}
+
+
+
+@media (min-width: 768px) {
+	.chooes .why h2 {
+		font-size: 50px;
+	}
+
+	.chooes .why p {
+		font-size: 18px
+	}
+
+	.chooes .making .making1 {
+		width: 47%;
+		margin-bottom: 40px;
+		margin-left: 20px;
+	}
+
+	.chooes .making .making1:last-of-type {
+		margin-left: 185px;
+	}
+
+	.chooes .making button {
+		display: none;
+	}
+
+}
+
+
+
+
+@media (min-width: 992px) {
+	.chooes .making .making1 {
+		width: 30%;
+		margin-bottom: 40px;
+		margin-left: 20px;
+	}
+
+	.chooes .making .making1:last-of-type {
+		margin-left: 20px;
+	}
+
+	.chooes .making .making1 p {
+		font-size: 16px;
+	}
+
+	.chooes .making button {
+		display: block;
+		float: left;
+	}
+
+
+	.chooes .making button:first-of-type {
+		margin-left: 75px;
+	}
+
+	.chooes .making button:nth-of-type(2){
+		margin-left: 120px;
+	}
+
+	.chooes .making button:last-of-type {
+		margin-left: 135px;
+	}
+
+
+}
+
+
+
+
+@media (min-width: 1200px) {
+
+	.chooes .why p {
+		font-size: 19px
+	}
+
+	.chooes .making .making1 p {
+		font-size: 15px;
+	}
+
+	.chooes .making button:first-of-type {
+		margin-left: 10%;
+	}
+
+	.chooes .making button:nth-of-type(2) {
+		margin-left: 16%;
+	}
+
+	.chooes .making button:last-of-type {
+		margin-left: 15%;
+	}
+
 }
 
 
@@ -333,9 +723,9 @@
 .contact-us .form {
 	border: 2px solid #8224dd;
 	background-color: #0C0F38;
-	margin: 20px 0px -225px 280px;
-	border-radius: 40px;
-	width: 50%;
+    margin: 20px 0px -225px 30px;
+    border-radius: 40px;
+    width: 90%;
 	text-align: center;
 	position: relative;
 	z-index: 2;
@@ -376,13 +766,13 @@
 .contact h2 {
     color: #FFF;
     padding-top: 250px;
-    font-size: 50px;
+    font-size: 35px;
 	font-weight: bold
 }
 
 .contact h3 {
     color: #FFF;
-    font-size: 30px;
+    font-size: 22px;
     margin-top: 10px;
     font-weight: 600;
 }
@@ -391,10 +781,105 @@
     color: #cacaca;
     margin: 25px 0px;
     padding-bottom: 25px;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 1.7;
+}
+
+
+
+
+
+@media (min-width: 576px) {
+	.contact-us .form {
+		margin: 20px 0px -225px 30px;
+		width: 91%;
+	}
+
+	.contact h2 {
+		font-size: 35px;
+	}
+	
+	.contact h3 {
+		font-size: 22px;
+	}
+	
+	.contact p {
+		font-size: 15px;
+	}
 
 }
+
+
+
+@media (min-width: 768px) {
+	.contact-us .form {
+		margin: 20px 0px -225px 85px;
+		width: 75%;
+	}
+
+	.contact h2 {
+		font-size: 40px;
+	}
+	
+	.contact h3 {
+		font-size: 24px;
+	}
+	
+	.contact p {
+		font-size: 16px;
+	}
+}
+
+
+
+
+@media (min-width: 992px) {
+	.contact-us .form {
+		margin: 50px 0px -225px 195px;
+		width: 57%;
+	}
+
+	.contact h2 {
+		font-size: 45px;
+	}
+	
+	.contact h3 {
+		font-size: 25px;
+	}
+	
+	.contact p {
+		font-size: 17px;
+	}
+}
+
+
+
+
+@media (min-width: 1200px) {
+	
+	.contact-us .form {
+		margin: 20px 0px -225px 280px;
+		width: 50%;
+	}
+
+	.contact h2 {
+		font-size: 50px;
+	}
+	
+	.contact h3 {
+		font-size: 27px;
+	}
+	
+	.contact p {
+		font-size: 18px;
+	}
+
+}
+
+
+
+
+
 
 /* End Contact */
 /* Start Copyright */
@@ -423,8 +908,34 @@
     border-radius: 36px;
     box-shadow: black 0px 0px 5px 2px;
     cursor: pointer;
-    display: none
-	
+	display: none;
 }
 
+@media (min-width: 576px) {
+	.copyright .icon {
+		position: fixed;
+		right: 47%;
+	}
+}
+
+@media (min-width: 768px) {
+	.copyright .icon {
+		position: fixed;
+		right: 47%;
+	}
+}
+
+@media (min-width: 992px) {
+	.copyright .icon {
+		position: fixed;
+		right: 2%;
+	}
+}
+
+
+
+
 /* End Copyright*/
+
+
+button {outline: none;}
